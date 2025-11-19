@@ -25,5 +25,5 @@ jobs:
           environment_name: ${{ secrets.EB_ENVIRONMENT_NAME }}
           existing_bucket_name: ${{ secrets.S3_BUCKET }}
           region: ${{ secrets.AWS_REGION }}
-          version_label: ${{ github.sha }}
+          version_label: ${{ github.sha }}-${{ github.run_number }}
           deployment_package: deploy.zip
