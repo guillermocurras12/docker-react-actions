@@ -1,4 +1,4 @@
-# Getting Started with Create React App beanstalk test
+# Getting Started with Create React App beanstalk test2
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
